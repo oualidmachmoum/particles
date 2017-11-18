@@ -1,12 +1,12 @@
-To test the Porgram :
+To test the Program :
 
-1) Open particules\src  and all *.py  files
+1) Open particles\src  and all *.py  files
 2) Execute main.py
 
 3) While program is running, several messages appears in the Console
 
 - Firstly : enter the initial conifg (respecting constraint "." "R" "L")
-If your Input repects the constraint, a new message appeaed
+If your Input repects the constraint, a new message appeared concerning the speed
 else Try again with right format
 
 - Secondly : enter the speed of particules (respecting 0<speed<10)
