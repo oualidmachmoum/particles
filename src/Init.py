@@ -1,7 +1,7 @@
 
 def init():
     """This function will define initial configuration of the chamber 
-    and particules speed, from user's inputs"""
+    and particles speed, from user's inputs"""
     
     #Boolean to check if inital config respects constraint( R L .)
     initOk = False
@@ -25,7 +25,7 @@ def init():
 
     #While loop for speed input and constraint check
     while (speedOk == False):
-        print("Could you enter particules,please respect speed (0<speed<11) :")
+        print("Could you enter particle's speed,please respect (0<speed<11) :")
         speed = input() #Number of positions each particle moves in one time unit
         speedInt = int(speed) #convert speed_input to int, to check constraint
         if(1>speedInt or speedInt >10): #check constraint 0<speed<10
